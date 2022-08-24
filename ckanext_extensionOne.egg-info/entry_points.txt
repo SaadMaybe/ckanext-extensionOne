@@ -1,0 +1,7 @@
+
+        [ckan.plugins]
+        extensionone=ckanext.extensionone.plugin:ExtensiononePlugin
+
+        [babel.extractors]
+        ckan = ckan.lib.extract:extract_ckan
+    

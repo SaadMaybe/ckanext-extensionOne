@@ -1,0 +1,14 @@
+# extensionone-js:
+#   filter: rjsmin
+#   output: ckanext-extensionone/%(version)s-extensionone.js
+#   contents:
+#     - js/extensionone.js
+#   extra:
+#     preload:
+#       - base/main
+
+# extensionone-css:
+#   filter: cssrewrite
+#   output: ckanext-extensionone/%(version)s-extensionone.css
+#   contents:
+#     - css/extensionone.css

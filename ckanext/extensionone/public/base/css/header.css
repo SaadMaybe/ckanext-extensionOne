@@ -1,0 +1,28 @@
+/* .account-masthead{
+    color: black;
+    background-color: black;
+} */
+.masthead {
+    background-color:white;
+    background-image: none;
+}
+
+.nav > li:nth-last-child(n) > a
+{
+    color:#3e525c;
+
+    font-size: 20px;
+    font-family: 'Roboto', sans-serif;
+}
+.nav > li:nth-last-child(n) > a,
+.nav > li:nth-last-child(n) > a:hover{
+	color:#3e525c;
+}
+.masthead .navigation .nav-pills li a:hover, 
+.masthead .navigation .nav-pills li a:focus, 
+.masthead .navigation .nav-pills li.active a {
+    background-color: transparent;
+    border: border-box;
+    border-color: red;
+  }
+
